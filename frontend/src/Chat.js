@@ -10,6 +10,7 @@ import DOMPurify from 'dompurify';
 import { Link } from 'react-router-dom';
 import { SignedIn, UserButton } from '@clerk/clerk-react';
 import styled from 'styled-components';
+import ReactGA from "react-ga4";
 
 // Function to render Markdown safely
 const renderMarkdown = (markdownText) => {
@@ -51,6 +52,11 @@ function Chat() {
   };
 
   const handleAsk = async () => {
+    ReactGA.event({
+      category: 'User Interaction',
+      action: 'Ask Button Clicked',
+      label: 'User submitted a question'
+    });
     if (!question.trim()) return;
 
     setIsAsking(true);

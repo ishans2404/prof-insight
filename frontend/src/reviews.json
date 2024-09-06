@@ -1,0 +1,689 @@
+{
+    "professors": [
+      {
+        "professor_id": "A1B2C3",
+        "name": "Dr. A. Kumar",
+        "course": "Data Structures",
+        "reviews": [
+          {
+            "rating": 4.5,
+            "review_text": "Dr. Kumar explains data structures with great clarity and provides excellent examples."
+          },
+          {
+            "rating": 3.7,
+            "review_text": "The course content was good, but the pace was a bit fast for beginners."
+          },
+          {
+            "rating": 4.8,
+            "review_text": "One of the best professors I've had. Very knowledgeable and approachable."
+          }
+        ]
+      },
+      {
+        "professor_id": "D4E5F6",
+        "name": "Dr. S. Reddy",
+        "course": "Algorithms",
+        "reviews": [
+          {
+            "rating": 4.2,
+            "review_text": "Dr. Reddy's lectures are well-organized and engaging. The assignments are challenging but fair."
+          },
+          {
+            "rating": 3.9,
+            "review_text": "The concepts were well taught, but the grading seemed a bit harsh."
+          },
+          {
+            "rating": 4.7,
+            "review_text": "Fantastic teacher with a deep understanding of algorithms. Highly recommended."
+          }
+        ]
+      },
+      {
+        "professor_id": "G7H8I9",
+        "name": "Dr. P. Sharma",
+        "course": "Operating Systems",
+        "reviews": [
+          {
+            "rating": 4.0,
+            "review_text": "Good course, though the material was sometimes a bit dry."
+          },
+          {
+            "rating": 4.3,
+            "review_text": "Dr. Sharma is very knowledgeable and provides clear explanations."
+          },
+          {
+            "rating": 4.1,
+            "review_text": "The course was informative, but more interactive sessions would be beneficial."
+          }
+        ]
+      },
+      {
+        "professor_id": "J1K2L3",
+        "name": "Dr. L. Patel",
+        "course": "Database Systems",
+        "reviews": [
+          {
+            "rating": 4.5,
+            "review_text": "Excellent course with practical insights into database management."
+          },
+          {
+            "rating": 4.0,
+            "review_text": "Dr. Patel has a solid understanding of database systems but could improve on feedback timeliness."
+          },
+          {
+            "rating": 4.6,
+            "review_text": "Very engaging and knowledgeable. The practical sessions were very useful."
+          }
+        ]
+      },
+      {
+        "professor_id": "M4N5O6",
+        "name": "Dr. V. Singh",
+        "course": "Computer Networks",
+        "reviews": [
+          {
+            "rating": 4.4,
+            "review_text": "Dr. Singh provides a comprehensive overview of networking concepts and practical applications."
+          },
+          {
+            "rating": 3.8,
+            "review_text": "The course is good, but sometimes the theoretical parts are too lengthy."
+          },
+          {
+            "rating": 4.7,
+            "review_text": "Highly knowledgeable with great real-world examples and case studies."
+          }
+        ]
+      },
+      {
+        "professor_id": "P7Q8R9",
+        "name": "Dr. A. Mehta",
+        "course": "Software Engineering",
+        "reviews": [
+          {
+            "rating": 4.3,
+            "review_text": "Dr. Mehta covers software engineering principles effectively, with a focus on real-life applications."
+          },
+          {
+            "rating": 4.0,
+            "review_text": "Good insights into software project management, though sometimes the lectures are a bit dry."
+          },
+          {
+            "rating": 4.5,
+            "review_text": "Engaging lectures and useful project work that helps understand the concepts better."
+          }
+        ]
+      },
+      {
+        "professor_id": "S1T2U3",
+        "name": "Dr. R. Joshi",
+        "course": "Artificial Intelligence",
+        "reviews": [
+          {
+            "rating": 4.6,
+            "review_text": "Dr. Joshi is an expert in AI and makes complex topics easier to understand with practical examples."
+          },
+          {
+            "rating": 4.1,
+            "review_text": "The course is quite advanced, but Dr. Joshi’s explanations help in grasping difficult concepts."
+          },
+          {
+            "rating": 4.7,
+            "review_text": "Excellent course content with a lot of interactive sessions and real-world AI applications."
+          }
+        ]
+      },
+      {
+        "professor_id": "V4W5X6",
+        "name": "Dr. N. Kapoor",
+        "course": "Machine Learning",
+        "reviews": [
+          {
+            "rating": 4.5,
+            "review_text": "Dr. Kapoor provides a solid foundation in machine learning with well-structured coursework."
+          },
+          {
+            "rating": 4.2,
+            "review_text": "Good course but sometimes the pace of covering topics is too quick."
+          },
+          {
+            "rating": 4.8,
+            "review_text": "Highly engaging and informative, with a lot of practical exercises and real-world datasets."
+          }
+        ]
+      },
+      {
+        "professor_id": "Y7Z8A9",
+        "name": "Dr. G. Rao",
+        "course": "Web Development",
+        "reviews": [
+          {
+            "rating": 4.3,
+            "review_text": "Dr. Rao’s course is well-organized with practical projects that enhance learning."
+          },
+          {
+            "rating": 4.0,
+            "review_text": "The course covers the essentials, but more advanced topics could be included."
+          },
+          {
+            "rating": 4.6,
+            "review_text": "Excellent for beginners and intermediate learners, with a lot of hands-on exercises."
+          }
+        ]
+      },
+      {
+        "professor_id": "B1C2D3",
+        "name": "Dr. H. Sinha",
+        "course": "Human-Computer Interaction",
+        "reviews": [
+          {
+            "rating": 4.4,
+            "review_text": "Dr. Sinha’s course is insightful with a focus on user experience and interaction design."
+          },
+          {
+            "rating": 4.1,
+            "review_text": "Interesting content but sometimes the theoretical aspects can be quite dense."
+          },
+          {
+            "rating": 4.5,
+            "review_text": "Great course with a lot of practical examples and user-centered design principles."
+          }
+        ]
+      },
+      {
+        "professor_id": "E4F5G6",
+        "name": "Dr. J. Verma",
+        "course": "Cybersecurity",
+        "reviews": [
+          {
+            "rating": 4.6,
+            "review_text": "Dr. Verma is highly knowledgeable and provides deep insights into cybersecurity threats and solutions."
+          },
+          {
+            "rating": 4.2,
+            "review_text": "The content is relevant, though some practical exercises could be more hands-on."
+          },
+          {
+            "rating": 4.8,
+            "review_text": "Excellent understanding of cybersecurity issues with practical case studies."
+          }
+        ]
+      },
+      {
+        "professor_id": "H7I8J9",
+        "name": "Dr. M. Bhat",
+        "course": "Embedded Systems",
+        "reviews": [
+          {
+            "rating": 4.3,
+            "review_text": "Dr. Bhat's course is very informative with detailed explanations of embedded systems."
+          },
+          {
+            "rating": 4.0,
+            "review_text": "The course is good, but more real-world examples would make it even better."
+          },
+          {
+            "rating": 4.5,
+            "review_text": "Engaging lectures with a lot of practical applications and projects."
+          }
+        ]
+      },
+      {
+        "professor_id": "K1L2M3",
+        "name": "Dr. A. Gupta",
+        "course": "Cloud Computing",
+        "reviews": [
+          {
+            "rating": 4.6,
+            "review_text": "Dr. Gupta offers a thorough understanding of cloud computing with practical cloud services."
+          },
+          {
+            "rating": 4.2,
+            "review_text": "The course is well-structured but could benefit from more interactive sessions."
+          },
+          {
+            "rating": 4.7,
+            "review_text": "Fantastic insights into cloud technologies and hands-on experience with cloud platforms."
+          }
+        ]
+      },
+      {
+        "professor_id": "N4O5P6",
+        "name": "Dr. R. Jain",
+        "course": "Computer Graphics",
+        "reviews": [
+          {
+            "rating": 4.4,
+            "review_text": "Dr. Jain’s course provides a strong foundation in computer graphics with great practical exercises."
+          },
+          {
+            "rating": 4.1,
+            "review_text": "Interesting content, though the course could be more engaging with interactive elements."
+          },
+          {
+            "rating": 4.6,
+            "review_text": "Highly recommended for anyone interested in graphics programming. The practical work was excellent."
+          }
+        ]
+      },
+      {
+        "professor_id": "Q7R8S9",
+        "name": "Dr. P. Singh",
+        "course": "Computer Vision",
+        "reviews": [
+          {
+            "rating": 4.5,
+            "review_text": "Dr. Singh is an expert in computer vision, and the course material is very relevant and up-to-date."
+          },
+          {
+            "rating": 4.3,
+            "review_text": "Great course, though it could use more hands-on projects to complement the theory."
+          },
+          {
+            "rating": 4.7,
+            "review_text": "Excellent course with a lot of practical applications and real-world examples."
+          }
+        ]
+      },
+      {
+        "professor_id": "R1S2T3",
+        "name": "Dr. T. Kumar",
+        "course": "Distributed Systems",
+        "reviews": [
+          {
+            "rating": 4.3,
+            "review_text": "Dr. Kumar provides a thorough understanding of distributed systems with practical insights."
+          },
+          {
+            "rating": 4.0,
+            "review_text": "The course is good but could benefit from more interactive discussions and exercises."
+          },
+          {
+            "rating": 4.5,
+            "review_text": "Highly knowledgeable with a lot of practical examples and case studies."
+          }
+        ]
+      },
+      {
+        "professor_id": "U4V5W6",
+        "name": "Dr. V. Iyer",
+        "course": "Compiler Design",
+        "reviews": [
+          {
+            "rating": 4.4,
+            "review_text": "Dr. Iyer's course is detailed and comprehensive, covering all aspects of compiler design."
+          },
+          {
+            "rating": 4.1,
+            "review_text": "Theoretical content is well-taught but practical exercises could be improved."
+          },
+          {
+            "rating": 4.6,
+            "review_text": "Excellent teaching with a strong focus on practical compiler construction techniques."
+          }
+        ]
+      },
+      {
+        "professor_id": "X7Y8Z9",
+        "name": "Dr. W. Rao",
+        "course": "Natural Language Processing",
+        "reviews": [
+          {
+            "rating": 4.5,
+            "review_text": "Dr. Rao's expertise in NLP is evident, and the course material is very relevant."
+          },
+          {
+            "rating": 4.2,
+            "review_text": "Great course with a lot of practical exercises, though the pace is a bit fast."
+          },
+          {
+            "rating": 4.7,
+            "review_text": "Highly engaging with a lot of real-world NLP applications and examples."
+          }
+        ]
+      },
+      {
+        "professor_id": "Y1Z2A3",
+        "name": "Dr. Z. Patel",
+        "course": "Quantum Computing",
+        "reviews": [
+          {
+            "rating": 4.6,
+            "review_text": "Dr. Patel provides an excellent overview of quantum computing with practical insights."
+          },
+          {
+            "rating": 4.1,
+            "review_text": "The course is very advanced but Dr. Patel’s explanations make it more accessible."
+          },
+          {
+            "rating": 4.8,
+            "review_text": "Highly recommended for those interested in quantum computing. Great balance of theory and practice."
+          }
+        ]
+      },
+      {
+        "professor_id": "Z4A5B6",
+        "name": "Dr. C. Singh",
+        "course": "Information Retrieval",
+        "reviews": [
+          {
+            "rating": 4.4,
+            "review_text": "Dr. Singh’s course on information retrieval is well-structured and informative."
+          },
+          {
+            "rating": 4.0,
+            "review_text": "Good course content but could use more real-world examples and practical sessions."
+          },
+          {
+            "rating": 4.6,
+            "review_text": "Excellent teaching with a lot of practical exercises that enhance understanding."
+          }
+        ]
+      },
+      {
+        "professor_id": "A7B8C9",
+        "name": "Dr. D. Sharma",
+        "course": "Digital Logic Design",
+        "reviews": [
+          {
+            "rating": 4.3,
+            "review_text": "Dr. Sharma provides a solid foundation in digital logic design with clear explanations."
+          },
+          {
+            "rating": 4.0,
+            "review_text": "Theoretical parts are well-covered but practical aspects could be more interactive."
+          },
+          {
+            "rating": 4.5,
+            "review_text": "Very knowledgeable and the practical sessions were very helpful."
+          }
+        ]
+      },
+      {
+        "professor_id": "B1C2D3",
+        "name": "Dr. E. Patel",
+        "course": "Mobile Computing",
+        "reviews": [
+          {
+            "rating": 4.6,
+            "review_text": "Dr. Patel’s course is highly relevant with a focus on current mobile computing technologies."
+          },
+          {
+            "rating": 4.2,
+            "review_text": "Good content but the pace of the course could be adjusted for better understanding."
+          },
+          {
+            "rating": 4.7,
+            "review_text": "Excellent course with practical insights into mobile application development."
+          }
+        ]
+      },
+      {
+        "professor_id": "C4D5E6",
+        "name": "Dr. F. Kumar",
+        "course": "Network Security",
+        "reviews": [
+          {
+            "rating": 4.5,
+            "review_text": "Dr. Kumar’s course is very informative with a lot of practical network security scenarios."
+          },
+          {
+            "rating": 4.1,
+            "review_text": "Content is relevant, but more case studies would enhance the learning experience."
+          },
+          {
+            "rating": 4.7,
+            "review_text": "Highly detailed and practical course on network security with a lot of hands-on labs."
+          }
+        ]
+      },
+      {
+        "professor_id": "D7E8F9",
+        "name": "Dr. G. Rao",
+        "course": "Systems Programming",
+        "reviews": [
+          {
+            "rating": 4.4,
+            "review_text": "Dr. Rao’s course on systems programming is well-structured and comprehensive."
+          },
+          {
+            "rating": 4.0,
+            "review_text": "Good theoretical coverage but practical examples could be more in-depth."
+          },
+          {
+            "rating": 4.6,
+            "review_text": "Excellent course with practical exercises and real-world programming problems."
+          }
+        ]
+      },
+      {
+        "professor_id": "E1F2G3",
+        "name": "Dr. H. Gupta",
+        "course": "Computer Architecture",
+        "reviews": [
+          {
+            "rating": 4.4,
+            "review_text": "Dr. Gupta provides a thorough understanding of computer architecture with clear explanations."
+          },
+          {
+            "rating": 4.2,
+            "review_text": "Good course but some of the concepts are a bit complex for beginners."
+          },
+          {
+            "rating": 4.6,
+            "review_text": "Highly engaging with practical insights into computer hardware and architecture."
+          }
+        ]
+      },
+      {
+        "professor_id": "F1G2H3",
+        "name": "Dr. M. Verma",
+        "course": "Parallel Computing",
+        "reviews": [
+          {
+            "rating": 4.3,
+            "review_text": "Dr. Verma’s course on parallel computing is insightful with practical applications."
+          },
+          {
+            "rating": 4.0,
+            "review_text": "Good coverage of parallel computing concepts but could use more hands-on labs."
+          },
+          {
+            "rating": 4.5,
+            "review_text": "Excellent explanations and practical exercises. Highly recommended for advanced learners."
+          }
+        ]
+      },
+      {
+        "professor_id": "G2H3I4",
+        "name": "Dr. L. Shah",
+        "course": "Big Data",
+        "reviews": [
+          {
+            "rating": 4.4,
+            "review_text": "Dr. Shah provides a comprehensive overview of big data technologies and tools."
+          },
+          {
+            "rating": 4.1,
+            "review_text": "Good course, but the pace could be slower for better understanding."
+          },
+          {
+            "rating": 4.6,
+            "review_text": "Highly engaging with real-world examples and practical applications in big data."
+          }
+        ]
+      },
+      {
+        "professor_id": "H3I4J5",
+        "name": "Dr. P. Kumar",
+        "course": "Bioinformatics",
+        "reviews": [
+          {
+            "rating": 4.2,
+            "review_text": "Dr. Kumar’s course on bioinformatics is well-structured and informative."
+          },
+          {
+            "rating": 4.0,
+            "review_text": "Interesting content, though the course could benefit from more practical exercises."
+          },
+          {
+            "rating": 4.5,
+            "review_text": "Excellent for understanding bioinformatics with practical insights and applications."
+          }
+        ]
+      },
+      {
+        "professor_id": "I4J5K6",
+        "name": "Dr. S. Patel",
+        "course": "Human-Robot Interaction",
+        "reviews": [
+          {
+            "rating": 4.5,
+            "review_text": "Dr. Patel’s course is engaging with a lot of hands-on projects and case studies."
+          },
+          {
+            "rating": 4.2,
+            "review_text": "Good theoretical content but could use more interactive sessions."
+          },
+          {
+            "rating": 4.7,
+            "review_text": "Highly recommended for those interested in robotics and human-robot interaction."
+          }
+        ]
+      },
+      {
+        "professor_id": "J5K6L7",
+        "name": "Dr. N. Choudhury",
+        "course": "Advanced Databases",
+        "reviews": [
+          {
+            "rating": 4.6,
+            "review_text": "Dr. Choudhury offers a deep dive into advanced database systems with practical examples."
+          },
+          {
+            "rating": 4.3,
+            "review_text": "Theoretical aspects are well-covered but more real-world projects would be beneficial."
+          },
+          {
+            "rating": 4.8,
+            "review_text": "Excellent teaching with complex concepts made accessible through practical exercises."
+          }
+        ]
+      },
+      {
+        "professor_id": "K6L7M8",
+        "name": "Dr. R. Bhatt",
+        "course": "Software Development Lifecycle",
+        "reviews": [
+          {
+            "rating": 4.4,
+            "review_text": "Dr. Bhatt provides a solid understanding of the software development lifecycle with clear explanations."
+          },
+          {
+            "rating": 4.1,
+            "review_text": "Good course content but could use more interactive discussions and case studies."
+          },
+          {
+            "rating": 4.6,
+            "review_text": "Highly practical with useful insights into each phase of software development."
+          }
+        ]
+      },
+      {
+        "professor_id": "L7M8N9",
+        "name": "Dr. A. Kapoor",
+        "course": "Data Mining",
+        "reviews": [
+          {
+            "rating": 4.3,
+            "review_text": "Dr. Kapoor’s course is comprehensive with practical data mining techniques and tools."
+          },
+          {
+            "rating": 4.0,
+            "review_text": "Content is relevant but the pace could be adjusted for better learning."
+          },
+          {
+            "rating": 4.7,
+            "review_text": "Excellent for practical data mining applications with lots of hands-on exercises."
+          }
+        ]
+      },
+      {
+        "professor_id": "M8N9O1",
+        "name": "Dr. T. Reddy",
+        "course": "Reinforcement Learning",
+        "reviews": [
+          {
+            "rating": 4.5,
+            "review_text": "Dr. Reddy’s course offers a deep understanding of reinforcement learning with practical examples."
+          },
+          {
+            "rating": 4.2,
+            "review_text": "Good coverage of reinforcement learning concepts but could benefit from more interactive labs."
+          },
+          {
+            "rating": 4.8,
+            "review_text": "Highly engaging with excellent practical exercises and real-world applications."
+          }
+        ]
+      },
+      {
+        "professor_id": "N9O1P2",
+        "name": "Dr. V. Sharma",
+        "course": "Augmented Reality",
+        "reviews": [
+          {
+            "rating": 4.4,
+            "review_text": "Dr. Sharma’s course is insightful with practical projects in augmented reality."
+          },
+          {
+            "rating": 4.1,
+            "review_text": "Interesting course but could use more hands-on exercises."
+          },
+          {
+            "rating": 4.6,
+            "review_text": "Excellent for learning about augmented reality with a lot of practical applications."
+          }
+        ]
+      },
+      {
+        "professor_id": "O1P2Q3",
+        "name": "Dr. K. Mehta",
+        "course": "Blockchain Technology",
+        "reviews": [
+          {
+            "rating": 4.5,
+            "review_text": "Dr. Mehta provides a thorough understanding of blockchain technology with practical examples."
+          },
+          {
+            "rating": 4.2,
+            "review_text": "Good content but could benefit from more interactive labs."
+          },
+          {
+            "rating": 4.7,
+            "review_text": "Highly engaging with real-world applications and hands-on projects."
+          }
+        ]
+      },
+      {
+        "professor_id": "P2Q3R4",
+        "name": "Dr. N. Patel",
+        "course": "Speech Processing",
+        "reviews": [
+          {
+            "rating": 4.3,
+            "review_text": "Dr. Patel’s course on speech processing is well-structured with practical examples."
+          },
+          {
+            "rating": 4.0,
+            "review_text": "Good theoretical coverage but could use more real-world applications."
+          },
+          {
+            "rating": 4.6,
+            "review_text": "Excellent course with a lot of practical exercises and applications in speech technology."
+          }
+        ]
+      }
+    ]
+  }
+  
